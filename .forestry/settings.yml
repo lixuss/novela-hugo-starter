@@ -16,6 +16,10 @@ sections:
   match: "**/*"
   templates:
   - post
+- type: document
+  path: some
+  label: Some
+  match: "**/*"
 - type: heading
   label: Data
 - type: directory
@@ -31,10 +35,6 @@ sections:
   create: all
   match: "**/*"
   new_doc_ext: yaml
-- type: document
-  path: some
-  label: Some
-  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
