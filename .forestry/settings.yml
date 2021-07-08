@@ -19,7 +19,6 @@ sections:
 - type: document
   path: some
   label: Some
-  match: "**/*"
 - type: heading
   label: Data
 - type: directory
